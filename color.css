@@ -1,0 +1,50 @@
+.pinta  {
+    width: 400px;
+    background: cadetblue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    }
+.pinta .mono1{
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 10px 0;
+        font-size: 14px;
+       
+        
+}
+.form3 {
+    width: 500px;
+    background: cadetblue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+
+}
+.inicio {
+    width: 500px;
+    background: cadetblue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white; 
+}
+
+/*.inicio .hu {
+    width: 20%;
+     background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 10px 0;
+        font-size: 14px;/*
+}
+    

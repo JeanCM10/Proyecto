@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;
+    }
+.form  {
+    width: 500px;
+    background: cadetblue;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    }
+    .form1  {
+        width: 500px;
+        background: cadetblue;
+        padding: 30px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 4px;
+        color: white;
+        }
+        
+    .form .mono {
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 10px 0;
+        font-size: 14px;
+        }
+
+        .form .botons{
+            width: 100%;
+            background: #1f53c5;
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 10px 0;
+            font-size: 14px;   
+        }
+        
+
