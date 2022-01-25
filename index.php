@@ -5,18 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link rel="stylesheet" href="color.css">
-    
+    <link rel="stylesheet" href="fondo2.css">
   
     <title>Document</title>
 </head>
 <body>
+<nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="logo.png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="index1.php">Inicio</a></li>
+            <li><a href="nuevo.php">Nuevo</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <section></section>
+
     <section class="inicio">
     <div>
 <form action="buscar.php" method ="post" class="jk">
  <input type="text" name="buscar" id="">
   <input class="hu" type="submit" value="Buscar">
-  <a href="nuevo.php">Nuevo</a> 
-  <a href="index1.php">Regresar</a>
 </form>
     </div>
 
