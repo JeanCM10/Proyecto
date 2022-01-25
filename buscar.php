@@ -25,12 +25,11 @@ $buscar = $_POST['buscar'];
 <table border = "1">
 <tr>
 <td>Codigo</td>
-<td >Cedula</td>
+<td>Cedula</td>
 <td>Nombre</td>
-<td>Ciudad</td>
-<td>Edad</td>
-<td>Num_dosis</td>
-<td>Opciones</td>
+<td>Destino</td>
+<td>Correo</td>
+<td>Dias</td>
 <td><a href="index.php">Regresar</a></td> 
     
 
