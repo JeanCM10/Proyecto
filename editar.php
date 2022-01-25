@@ -20,7 +20,7 @@ $dias =$_GET['dias'];
 <section class ="pinta">
 <div>
 <form action="sp_editar.php" method ="post">
-    <table border ="1">
+    <table border ="4">
 <tr>
     <td class="mono1">Editar Datos</td>
 </tr>
