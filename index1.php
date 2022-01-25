@@ -71,7 +71,7 @@
         <p>Toma su nombre por estar ubicada en una ensenada rodeada por cerros y vegetación al pie del mar
           como un valle con una playa extensa, actualmente es un balneario turístico internacional visitado por jóvenes que practican el turismo de aventura
         </p>
-        <a href="https://www.infomontanita.com/es/informacion/">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="https://www.infomontanita.com/es/informacion/">Diversion <i class="fas fa-angle-double-right"></i></a>
       </div>
       <div>
         <img src="img/tour2.jpg" alt="" />
@@ -79,7 +79,7 @@
         <p>Es uno de los principales atractivos turísticos del Ecuador que muestras sus entrañas para mostrar su fascinante evolución de flora y fauna
           en un entorno semejante a un espectacular paraíso y laboratorio viviente que fue visitado en 1835 por el científico inglés Charles Darwin
         </p>
-        <a href="https://www.ecogal.aero/galapagos">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="https://www.ecogal.aero/galapagos">Turismo <i class="fas fa-angle-double-right"></i></a>
       </div>
       <div>
         <img src="img/tour3.jpg" alt="" />
@@ -87,7 +87,7 @@
         <p>Ubicado en la provincia de Tungurahua, es uno de los destinos turísticos más hermosos y visitados del Ecuador.
           En este mágico lugar los turistas pueden contemplar a la majestuosa naturaleza y disfrutar de la adrenalina al practicar actividades de aventura.
         </p>
-        <a href="https://www.turismo.gob.ec/banos-un-carismatico-y-tranquilo-lugar-al-pie-de-un-volcan/">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="https://www.turismo.gob.ec/banos-un-carismatico-y-tranquilo-lugar-al-pie-de-un-volcan/">Cultura <i class="fas fa-angle-double-right"></i></a>
       </div>
       <div>
         <img src="img/tour4.jpg" alt="" />
@@ -95,7 +95,7 @@
         <p>Un lugar representativo de la ciudad de la cultura.Una de los lugares más visitados de loja por la devoción a la Virgen del Cisne
           La ciudad de la cultura y la música, te invita a descubrir todo su encanto y los idílicos paisajes que la rodean.
         </p>
-        <a href="https://www.goraymi.com/es-ec/loja/loja/ciudades/loja-turismo-ad99cc2c3">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="https://www.goraymi.com/es-ec/loja/loja/ciudades/loja-turismo-ad99cc2c3">Tradicion <i class="fas fa-angle-double-right"></i></a>
       </div>
     </div>
 
