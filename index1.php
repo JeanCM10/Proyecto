@@ -79,7 +79,7 @@
         <p>Es uno de los principales atractivos turísticos del Ecuador que muestras sus entrañas para mostrar su fascinante evolución de flora y fauna
           en un entorno semejante a un espectacular paraíso y laboratorio viviente que fue visitado en 1835 por el científico inglés Charles Darwin
         </p>
-        <a href="https://redpacifico.net/es/isla-galapagos-ecuador/">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="https://www.ecogal.aero/galapagos">Learn More <i class="fas fa-angle-double-right"></i></a>
       </div>
       <div>
         <img src="img/tour3.jpg" alt="" />
@@ -95,7 +95,7 @@
         <p>Un lugar representativo de la ciudad de la cultura.Una de los lugares más visitados de loja por la devoción a la Virgen del Cisne
           La ciudad de la cultura y la música, te invita a descubrir todo su encanto y los idílicos paisajes que la rodean.
         </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="https://www.goraymi.com/es-ec/loja/loja/ciudades/loja-turismo-ad99cc2c3">Learn More <i class="fas fa-angle-double-right"></i></a>
       </div>
     </div>
 
@@ -194,7 +194,7 @@
           </tr>
           <tr>
               <td>140$</td>
-              <td>No disponible</td>
+              <td>No disponible a Baños en Avion</td>
               <td>BMW 50$</td>
           </tr>
           <tr>

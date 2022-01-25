@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link rel="stylesheet" href="color.css">
+  
     <title>Document</title>
 </head>
 <body>
@@ -26,14 +27,14 @@
 <td>Cedula</td>
 <td>Nombre</td>
 <td>Destino</td>
-<td>Edad</td>
+<td>Correo</td>
 <td>Dias</td>
 <td>Opciones</td>
 </tr>
 </section>
 <?php
-$cnx = mysqli_connect('localhost','prueba','1234','vacunas');
-$sql = "Select codigo,cedula,nombre,ciudad,edad,num_dosis From datos_vacunados order by codigo desc";
+$cnx = mysqli_connect('localhost','prueba','1234','viaje');
+$sql = "Select codigo,cedula,nombre,destino,correo,dias From viajes_n order by codigo desc";
 $rta = mysqli_query($cnx,$sql);
 while ($mostrar = mysqli_fetch_row($rta)){
 ?>
@@ -50,9 +51,9 @@ while ($mostrar = mysqli_fetch_row($rta)){
 codigo=<?php echo $mostrar ['0'] ?> &
 cedula=<?php echo $mostrar ['1'] ?> &
 nombre=<?php echo $mostrar ['2'] ?> &
-ciudad=<?php echo $mostrar ['3'] ?> &
-edad=<?php echo $mostrar ['4'] ?> &
-num_dosis=<?php echo $mostrar ['5'] ?> 
+destino=<?php echo $mostrar ['3'] ?> &
+correo=<?php echo $mostrar ['4'] ?> &
+dias=<?php echo $mostrar ['5'] ?> 
 ">Editar</a>
 <a href="eliminar.php? codigo=<?php echo $mostrar ['0']?>  ">Eliminar</a>
 

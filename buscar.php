@@ -31,14 +31,14 @@ $buscar = $_POST['buscar'];
 <td>Edad</td>
 <td>Num_dosis</td>
 <td>Opciones</td>
-  
-    <td><a href="index.php">Regresar</a></td>
+<td><a href="index.php">Regresar</a></td> 
+    
 
 </tr>
 </section>
 <?php
-$cnx = mysqli_connect('localhost','prueba','1234','vacunas');
-$sql = "SELECT codigo,cedula,nombre,ciudad,edad,num_dosis From datos_vacunados where codigo like '$buscar' '%' or cedula like '$buscar' '%' or nombre like '$buscar' '%' or cedula like '$buscar' '%' order by codigo desc" ;
+$cnx = mysqli_connect('localhost','prueba','1234','viaje');
+$sql = "SELECT codigo,cedula,nombre,destino,correo,dias From viajes_n where codigo like '$buscar' '%' or cedula like '$buscar' '%' or nombre like '$buscar' '%' or cedula like '$buscar' '%' order by codigo desc" ;
 $rta = mysqli_query($cnx,$sql);
 while ($mostrar = mysqli_fetch_row($rta)){
 ?>
@@ -54,9 +54,9 @@ while ($mostrar = mysqli_fetch_row($rta)){
 codigo=<?php echo $mostrar ['0'] ?> &
 cedula=<?php echo $mostrar ['1'] ?> &
 nombre=<?php echo $mostrar ['2'] ?> &
-ciudad=<?php echo $mostrar ['3'] ?> &
-edad=<?php echo $mostrar ['4'] ?> &
-num_dosis=<?php echo $mostrar ['5'] ?> 
+destino=<?php echo $mostrar ['3'] ?> &
+correo=<?php echo $mostrar ['4'] ?> &
+editar=<?php echo $mostrar ['5'] ?> 
 ">Editar</a>
 <a href="eliminar.php? codigo=<?php echo $mostrar ['0']?>  ">Eliminar</a>
 

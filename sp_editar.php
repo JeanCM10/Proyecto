@@ -2,13 +2,13 @@
 $codigo=$_POST['codigo'];
 $cedula =$_POST['cedula'];
 $nombre =$_POST['nombre'];
-$ciudad =$_POST['ciudad'];
-$edad =$_POST['edad'];
-$num_dosis =$_POST['num_dosis'];
+$destino =$_POST['destino'];
+$correo =$_POST['correo'];
+$dias =$_POST['dias'];
 
 
-$cnx = mysqli_connect('localhost','prueba','1234','vacunas');
-$sql = "UPDATE datos_vacunados set cedula='$cedula',nombre='$nombre',ciudad='$ciudad',edad='$edad',num_dosis='$num_dosis' where codigo like $codigo";
+$cnx = mysqli_connect('localhost','prueba','1234','viaje');
+$sql = "UPDATE viajes_n set cedula='$cedula',nombre='$nombre',destino='$destino',correo='$correo',dias='$dias' where codigo like $codigo";
 $rta = mysqli_query($cnx,$sql);
 if (!$rta){
 echo "no se actualizo";

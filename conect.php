@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost','prueba','1234','vacunas');
+$conn = mysqli_connect('localhost','prueba','1234','viaje');
 if(!$conn){
 echo 'nose conecto';
 

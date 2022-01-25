@@ -30,15 +30,15 @@
 </tr>
 <tr>
     <td class="mono">Destino</td>
-    <td><input type="text" name="ciudad" id=""></td>
+    <td><input type="text" name="destino" id=""></td>
 </tr>
 <tr>
-    <td class="mono">Edad</td>
-    <td><input type="text" name="edad" id=""></td>
+    <td class="mono">Correo</td>
+    <td><input type="text" name="correo" id=""></td>
 </tr>
 <tr>
     <td class="mono">Dias</td>
-    <td><input type="text" name="num_dosis" id=""></td>
+    <td><input type="text" name="dias" id=""></td>
 </tr>
 <tr>
     <td><input class="botons" type="submit" value="Guardar"></td>

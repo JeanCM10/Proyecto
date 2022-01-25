@@ -13,16 +13,16 @@
 $codigo=$_GET['codigo'];
 $cedula =$_GET['cedula'];
 $nombre =$_GET['nombre'];
-$ciudad =$_GET['ciudad'];
-$edad =$_GET['edad'];
-$num_dosis =$_GET['num_dosis'];
+$destino =$_GET['destino'];
+$correo =$_GET['correo'];
+$dias =$_GET['dias'];
 ?>
 <section class ="pinta">
 <div>
 <form action="sp_editar.php" method ="post">
     <table border ="1">
 <tr>
-    <td class="mono1">Ingresar Datos</td>
+    <td class="mono1">Editar Datos</td>
 </tr>
 <tr>
     <td class="mono1">Codigo</td>
@@ -38,15 +38,15 @@ $num_dosis =$_GET['num_dosis'];
 </tr>
 <tr>
     <td class="mono1">Destino</td>
-    <td><input type="text" name="ciudad" id="" value="<?=$ciudad?>"></td>
+    <td><input type="text" name="destino" id="" value="<?=$destino?>"></td>
 </tr>
 <tr>
-    <td class="mono1">Edad</td>
-    <td><input type="text" name="edad" id="" value="<?=$edad?>"></td>
+    <td class="mono1">Correo</td>
+    <td><input type="text" name="correo" id="" value="<?=$correo?>"></td>
 </tr>
 <tr>
     <td class="mono1">Dias</td>
-    <td><input type="text" name="num_dosis" id="" value="<?=$num_dosis?>"></td>
+    <td><input type="text" name="dias" id="" value="<?=$dias?>"></td>
 </tr>
 <tr>
     <td><input type="submit" value="Actualizar"></td>
