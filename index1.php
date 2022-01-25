@@ -241,7 +241,7 @@
       <div>
         <img src="img/l3.jpg" alt="" />
         
-        <a href="#">Tradicion <i class="fas fa-angle-double-right"></i></a>
+        <a href="#">Tradiciones <i class="fas fa-angle-double-right"></i></a>
       </div>
     </div>
 
