@@ -226,22 +226,22 @@
       <div>
         <img src="img/m1.jpg" alt="" />
        
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="#">Diversion <i class="fas fa-angle-double-right"></i></a>
       </div>
       <div>
         <img src="img/g2.jpg" alt="" />
         
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="#">Turismo <i class="fas fa-angle-double-right"></i></a>
       </div>
       <div>
         <img src="img/b5.jpg" alt="" />
         
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="#">Cultura <i class="fas fa-angle-double-right"></i></a>
       </div>
       <div>
         <img src="img/l3.jpg" alt="" />
         
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+        <a href="#">Tradicion <i class="fas fa-angle-double-right"></i></a>
       </div>
     </div>
 
